@@ -8,6 +8,11 @@ This started as a fork of a general-purpose "let the AI run arbitrary PowerShell
 uncontrolled surface area for what was actually needed (running specific, known commands on one dev server), so
 this exists instead: deliberately minimal, deliberately hard to misuse.
 
+## Feedback welcome
+
+This was built to solve a real problem, not as a polished product - if you try it, hit an issue, or have a
+better way to do something here, please open an issue. That's genuinely more useful than a star.
+
 ## What this is NOT
 
 It is not a general-purpose remote-execution tool. It exposes exactly **one** tool, `run-ssh-command`, which can

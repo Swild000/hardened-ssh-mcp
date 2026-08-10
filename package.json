@@ -1,0 +1,15 @@
+{
+  "name": "hardened-ssh-mcp",
+  "version": "1.0.0",
+  "description": "A single-purpose MCP server that lets an AI assistant run commands over SSH on one fixed, pre-configured host - and only that host - with an explicit per-call confirmation gate. Built as a deliberately hardened, minimal alternative to general-purpose \"run any PowerShell/shell command\" MCP tools.",
+  "type": "module",
+  "main": "src/server.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "zod": "^3.23.8"
+  }
+}

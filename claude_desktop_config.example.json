@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "ssh-my-server": {
+      "command": "node",
+      "args": ["/absolute/path/to/hardened-ssh-mcp/src/server.js"],
+      "env": {
+        "SSH_USER": "your-username",
+        "SSH_HOST": "your.server.hostname.or.ip",
+        "SSH_IDENTITY_FILE": "/absolute/path/to/your/private_key"
+      }
+    }
+  }
+}

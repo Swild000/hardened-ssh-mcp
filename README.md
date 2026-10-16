@@ -120,6 +120,7 @@ be straightforward additions to this pattern.
 MIT - see [LICENSE](./LICENSE).
 
 Copyright (c) 2026 SIMON WILD
+
 Copyright (c) 2025 Gunjan (original powershell-mcp, https://github.com/gunjanjp/powershell-mcp)
 
 Both notices must be kept in any copy or redistribution.
